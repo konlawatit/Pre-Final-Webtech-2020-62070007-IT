@@ -38,8 +38,8 @@
                     $market = $album -> available_markets;
                     $lenMarket = count($market);
                     $check = explode(" ", $artist);
-                    echo $check[0];
-                    if ($name == $input || $input == $artist) {
+                    // $check[0];
+                    if ($name == $input || $input == $artist || $check[0] == $input || $check[1] == $input) {
                         //echo '<img src="'.$images.'" alt="">';
                         echo '<div class="col-4" style="margin-bottom: 1%" >
                             <div class="card">
